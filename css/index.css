@@ -75,7 +75,7 @@
 }
 .nav_list li:after{
     content: "";
-    width: 61.5px;
+    width: 61px;
     height: 4px;
     background: url("../img/nav_line.png");
     position: absolute;
@@ -141,6 +141,20 @@
 .jiantou_r{
     right:34px;
     background: #00AEEE;
+}
+.fangdajing{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    z-index: 6;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+.fangdajing img{
+    display: block;
 }
 .lunbo_btn{
     position: absolute;
